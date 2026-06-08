@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a graduate student in mathematics at KAIST.
+I am a graduate student in the Department of Mathematical Sciences at KAIST.
 
 My research interests are in low-dimensional topology, especially 3- and 4-dimensional smooth orbifolds.
 
