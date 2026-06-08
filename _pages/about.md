@@ -13,10 +13,9 @@ My research interests are in differential geometry, affine differential geometry
 
 ## Research interests
 
-- Differential geometry
-- Affine differential geometry
-- Affine maximal hypersurfaces
-- Geometric analysis
+- Smooth Orbifolds
+- 3- and 4- dimensional topology
+- Orbifold Surgery
 
 ## Papers and preprints
 
