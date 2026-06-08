@@ -11,7 +11,7 @@ I am a graduate student in mathematics at KAIST.
 
 My research interests are in low-dimensional topology, especially 3- and 4-dimensional smooth orbifolds.
 
-I study handle decompositions of smooth orbifolds and aim to develop orbifold analogues of surgery theory, Kirby calculus, gauge theory, and Heegaard Floer homology.
+I study handle decompositions and surgery theory of smooth orbifolds and aim to develop orbifold analogues of Kirby calculus, gauge theory, and Heegaard Floer homology.
 
 ## Research interests
 
