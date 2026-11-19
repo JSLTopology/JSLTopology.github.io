@@ -1,0 +1,42 @@
+name: Build academic CV PDF
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'cv/Juseop_Lee_CV.tex'
+      - '.github/workflows/build-cv.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-cv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Compile CV with LaTeX
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: cv/Juseop_Lee_CV.tex
+          work_in_root_file_dir: true
+
+      - name: Publish PDF for GitHub Pages
+        shell: bash
+        run: |
+          test -s cv/Juseop_Lee_CV.pdf
+          mkdir -p files
+          cp cv/Juseop_Lee_CV.pdf files/Juseop_Lee_CV.pdf
+          git add files/Juseop_Lee_CV.pdf
+          if git diff --cached --quiet; then
+            echo "CV PDF is already up to date."
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' \
+              -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+              commit -m 'Update compiled CV PDF'
+          git push

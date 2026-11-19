@@ -1,0 +1,79 @@
+\documentclass[11pt,a4paper]{article}
+
+% Self-contained academic CV.
+% The supplied resume template requires resume.cls, which was not included.
+% This file instead recreates the clean one-page layout of the reference CV
+% using standard LaTeX packages available on Overleaf.
+\usepackage[top=1.55cm,bottom=1.65cm,left=1.85cm,right=1.85cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{xurl}
+\usepackage{ragged2e}
+
+\hypersetup{
+  hidelinks,
+  pdftitle={Juseop Lee - Curriculum Vitae},
+  pdfauthor={Juseop Lee},
+  pdfsubject={Academic curriculum vitae}
+}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{2em}
+\setlist{nosep,leftmargin=*}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{0.06em}\titlerule]
+\titlespacing*{\section}{0pt}{0.97em}{0.36em}
+\newcommand{\cvitem}[1]{\par\noindent #1\par\vspace{0.27em}}
+\newcommand{\cvdated}[2]{%
+  \noindent\begin{tabularx}{\linewidth}{@{}Xr@{}}
+    #1 & #2
+  \end{tabularx}\par}
+\newcommand{\cvtalk}[2]{\cvitem{\href{#1}{#2}}}
+
+\begin{document}
+\begin{center}
+  {\fontsize{23}{27}\selectfont Juseop Lee}\par
+  \vspace{0.32em}
+  Department of Mathematical Sciences, KAIST, Daejeon, Republic of Korea
+  \quad|\quad \href{mailto:dlwntjq77@kaist.ac.kr}{dlwntjq77@kaist.ac.kr}\par
+  \vspace{0.18em}
+  \href{https://jsltopology.github.io}{https://jsltopology.github.io}
+\end{center}
+\vspace{-0.7em}
+
+\section*{Education}
+\cvdated{KAIST, Daejeon, Ph.D.\ student in Mathematics}{Mar 2022 -- Current}
+\cvdated{DGIST, Daegu, B.S.\ in Transdisciplinary Studies}{Mar 2017 -- Feb 2022}
+
+\section*{Research Interests}
+Smooth orbifolds, low-dimensional topology, handle decompositions, surgery theory, Kirby calculus.
+
+\section*{Publications}
+\cvitem{Suhyoung Choi and Juseop Lee, \href{https://arxiv.org/abs/2611.22293}{\emph{Orbifold Morse Handles II. Boundary Regions, Gluing Maps, and Surgery Cobordisms}}, \href{https://arxiv.org/abs/2611.22293}{arXiv:2611.22293} [math.GT] (2026).}
+\cvitem{Suhyoung Choi and Juseop Lee, \href{https://arxiv.org/abs/2611.21153}{\emph{Orbifold Morse Handles I. Morse Indices and Isomorphism Classes of Ordered Handles}}, \href{https://arxiv.org/abs/2611.21153}{arXiv:2611.21153} [math.GT] (2026).}
+
+\section*{Awards}
+\cvdated{\href{https://www.kms.or.kr/board/list.html?code=md_meet\&num=24636\&period=88\&period_url=2024_fall}{Outstanding Poster Award}, 2024 KMS Annual Meeting}{2024}
+
+\section*{Talks}
+\cvtalk{https://www.kms.or.kr/conference/abstract/search_view.html?num=10790\&uid=94\&period=94}{\emph{Orbifold Handles and Surgery}, 2026 KMS Annual Meeting, GIST, Gwangju, Korea, October 2026.}
+\cvtalk{https://mathsci.kaist.ac.kr/gradseminar/notice/notice-61st-kmgs-on-october-1-thu-2026/}{\emph{Morse Theory and Orbifold}, KAIST Math Graduate Student Seminar (KMGS), KAIST, Daejeon, Korea, October 1, 2026.}
+\cvtalk{https://sites.google.com/view/dgtvii/abstracts}{\emph{Orbifold Lickorish--Wallace Theorem}, Dynamical Group Theory VII, Seoul National University (lightning talk), Seoul, Korea, November 26, 2025.}
+\cvtalk{https://www.kms.or.kr/conference/abstract/search_view.html?num=9501\&uid=88\&period=88\&section=Poster\%20Session}{\emph{Deforming deformation space of non-orderable Coxeter orbifold into higher dimension.} Poster presentation at the 2024 KMS Annual Meeting, Sungkyunkwan University, Suwon, Korea, October 25, 2024.}
+
+\section*{Conferences organized}
+\cvdated{\href{https://sites.google.com/view/gtworkshop2024kaist/home}{2024 JNU / KAIST / SNU Geometric Topology Workshop (5th)}, KAIST, local organizer}{Aug 18--23, 2024}
+\cvdated{\href{https://mathsci.kaist.ac.kr/~schoi/research.html}{2023 JNU / KAIST / SNU Geometric Topology Workshop (4th)}, KAIST, local organizer}{Aug 16--18, 2023}
+
+\section*{Teaching assistant}
+Calculus I; Calculus II; Introduction to Linear Algebra; Logic and Set Theory; Combinatorial Topology.
+
+\section*{Counseling assistant}
+Counseling Assistant (CA), KAIST \hfill 2025--2026
+
+\end{document}
