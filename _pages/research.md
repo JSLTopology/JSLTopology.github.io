@@ -24,6 +24,4 @@ My research lies in low-dimensional topology, with an emphasis on smooth orbifol
 
 ## Papers and Preprints
 
-My current preprints, coauthored with Suhyoung Choi, develop the local handle theory and surgery framework for smooth orbifolds.
-
 {% include paper-list.html %}
