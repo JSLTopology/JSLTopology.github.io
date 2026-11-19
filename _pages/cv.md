@@ -7,27 +7,24 @@ redirect_from:
   - /resume
 ---
 
-## Current Position
+My academic CV is available as a one-page PDF. The document contains clickable links to papers and conference abstracts.
 
-**Ph.D. Student in Mathematics**  
-Department of Mathematical Sciences, KAIST  
-Daejeon, South Korea
+<a class="btn btn--primary" href="{{ '/files/Juseop_Lee_CV.pdf' | relative_url }}" target="_blank" rel="noopener">View / Download CV (PDF)</a>
+<a class="btn btn--inverse" href="{{ '/cv/Juseop_Lee_CV.tex' | relative_url }}">LaTeX source</a>
 
-Advisor: Professor Suhyoung Choi
+## Education
 
-## Research Interests
-
-- Low-dimensional topology
-- Smooth 3- and 4-dimensional orbifolds
-- Handle decompositions and surgery theory
-- Kirby calculus and four-manifold topology
-- Real projective structures on Coxeter orbifolds
+**KAIST**, Daejeon — Ph.D. student in Mathematics (Mar 2022 – Current)  
+**DGIST**, Daegu — B.S. in Transdisciplinary Studies (Mar 2017 – Feb 2022)
 
 ## Papers and Preprints
 
 {% include paper-list.html %}
 
+## Research Interests
+
+Smooth orbifolds, low-dimensional topology, handle decompositions, surgery theory, and Kirby calculus.
+
 ## Contact
 
-Email: [dlwntjq77@kaist.ac.kr](mailto:dlwntjq77@kaist.ac.kr)  
-GitHub: [JSLTopology](https://github.com/JSLTopology)
+Email: [dlwntjq77@kaist.ac.kr](mailto:dlwntjq77@kaist.ac.kr)
