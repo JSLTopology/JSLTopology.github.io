@@ -8,7 +8,7 @@ site_theme               : "default"
 title                    : "Juseop Lee | Mathematics"
 title_separator          : "-"
 name                     : &name "Juseop Lee"
-description              : &description "Graduate student in Mathematics"
+description              : &description "Juseop Lee — low-dimensional topology, smooth orbifolds, and surgery theory"
 url                      : "https://jsltopology.github.io"
 baseurl                  : ""
 repository               : "JSLTopology/JSLTopology.github.io"
@@ -19,7 +19,7 @@ author:
   avatar           : "profile.png"
   name             : "Juseop Lee"
   pronouns         :
-  bio              : "Graduate student in Mathematics"
+  bio              : "Ph.D. student in Mathematics"
   location         : "Daejeon, South Korea"
   employer         : "KAIST"
   uri              :

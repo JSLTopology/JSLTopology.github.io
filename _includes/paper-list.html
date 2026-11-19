@@ -1,0 +1,15 @@
+{% assign sorted_papers = site.publications | sort: 'date' | reverse %}
+{% assign papers_limit = include.limit | default: 100 %}
+<div class="paper-list">
+  {% for paper in sorted_papers limit: papers_limit %}
+  <article class="paper-entry">
+    <p class="paper-entry__meta">{{ paper.status | default: 'Preprint' | escape }} <span aria-hidden="true">·</span> {{ paper.date | date: '%Y' }}</p>
+    <h3 class="paper-entry__title"><a href="{{ paper.paperurl }}">{{ paper.title | escape }}</a></h3>
+    <p class="paper-entry__authors">{{ paper.authors | escape }}</p>
+    <div class="paper-entry__links">
+      <a href="{{ paper.paperurl }}" aria-label="Read {{ paper.title | escape }} on arXiv">arXiv</a>
+      <a href="{{ paper.pdfurl }}" aria-label="Download PDF of {{ paper.title | escape }}">PDF</a>
+    </div>
+  </article>
+  {% endfor %}
+</div>
